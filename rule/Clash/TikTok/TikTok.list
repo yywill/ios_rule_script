@@ -1,18 +1,19 @@
-# NAME: TikTok
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-08-05 02:10:46
-# DOMAIN: 3
-# DOMAIN-KEYWORD: 2
-# DOMAIN-SUFFIX: 22
-# PROCESS-NAME: 1
-# TOTAL: 28
+# TikTok Blocklist
+# Updated with additional domains, IP ranges, and rules
+# Sources: blackmatrix7, M4jx, Z-Siqi, and more
+
+# DOMAIN MATCHES
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
+
+# DOMAIN SUFFIX MATCHES
 DOMAIN-SUFFIX,bytedapm.com
+# DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,bytedanceapi.com
 DOMAIN-SUFFIX,bytegecko-i18n.com
 DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,byteoversea.net
 DOMAIN-SUFFIX,capcut.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ibyteimg.com
@@ -20,18 +21,43 @@ DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,musemuse.cn
 DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,sgsnssdk.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokcdn-in.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokd.net
 DOMAIN-SUFFIX,tiktokd.org
 DOMAIN-SUFFIX,tiktokmusic.app
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,ttwebview.com
+DOMAIN-SUFFIX,ttoversea.net
+DOMAIN-SUFFIX,worldfcdn.com
+DOMAIN-SUFFIX,wsdvs.com
+
+# DOMAIN-KEYWORD MATCHES
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,tiktokcdn-
+
+# PROCESS NAME MATCH
 PROCESS-NAME,com.zhiliaoapp.musically
+
+# USER AGENT BLOCK
+USER-AGENT,TikTok*
+
+# IP RANGES (IPv4 & IPv6)
+IP-CIDR,103.255.192.0/18,no-resolve
+IP-CIDR,104.93.0.0/16,no-resolve
+IP-CIDR,104.84.0.0/16,no-resolve
+IP-CIDR,13.225.0.0/16,no-resolve
+IP-CIDR,150.138.0.0/16,no-resolve
+IP-CIDR,161.117.0.0/16,no-resolve
+IP-CIDR,52.82.0.0/16,no-resolve
+IP-CIDR6,2406:da00::/32,no-resolve
+IP-CIDR6,2409:8c00::/32,no-resolve
