@@ -317,7 +317,6 @@ DOMAIN-SUFFIX,google.co.vi
 DOMAIN-SUFFIX,google.co.za
 DOMAIN-SUFFIX,google.co.zm
 DOMAIN-SUFFIX,google.co.zw
-DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,google.com.af
 DOMAIN-SUFFIX,google.com.ag
 DOMAIN-SUFFIX,google.com.ai
@@ -721,7 +720,6 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,recaptcha
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
