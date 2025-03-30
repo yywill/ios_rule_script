@@ -717,6 +717,15 @@ DOMAIN-SUFFIX,zukunftswerkstatt.de
 DOMAIN-SUFFIX,zynamics.com
 DOMAIN-SUFFIX,googledrive.com
 DOMAIN-SUFFIX,googleusercontent.com
+
+DOMAIN-SUFFIX,signaler-pa.clients6.google.com
+DOMAIN-SUFFIX,signaler.clients6.google.com
+DOMAIN-SUFFIX,waa-pa.clients6.google.com
+DOMAIN-SUFFIX,ogs.google.com
+DOMAIN-SUFFIX,ogads-pa.clients6.google.com
+DOMAIN-SUFFIX,addons-pa.clients6.google.com
+
+
 DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
