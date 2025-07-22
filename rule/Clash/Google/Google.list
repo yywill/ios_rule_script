@@ -10,6 +10,10 @@
 # PROCESS-NAME: 6
 # TOTAL: 707
 DOMAIN,voice.telephony.goog
+
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,accounts.google.com
+
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1ucrs.com
