@@ -564,6 +564,22 @@ HOST-SUFFIX,madewithcode.com,Google
 HOST-SUFFIX,material.io,Google
 HOST-SUFFIX,mdialog.com,Google
 HOST-SUFFIX,meet.new,Google
+# Google Meet — media TURN (*.turns.goog is not under google.com)
+HOST-SUFFIX,meet.google.com,Google
+HOST-SUFFIX,stream.meet.google.com,Google
+HOST-SUFFIX,hangouts.google.com,Google
+HOST-SUFFIX,streamgate.google.com,Google
+HOST-SUFFIX,workspace.google.com,Google
+HOST-SUFFIX,meetings.googleapis.com,Google
+HOST-SUFFIX,hangouts.googleapis.com,Google
+HOST-SUFFIX,turns.goog,Google
+HOST,meet.turns.goog,Google
+HOST,workspace.turns.goog,Google
+HOST,stun.l.google.com,Google
+HOST,stun1.l.google.com,Google
+HOST,stun2.l.google.com,Google
+HOST,stun3.l.google.com,Google
+HOST,stun4.l.google.com,Google
 HOST-SUFFIX,mfg-inspector.com,Google
 HOST-SUFFIX,mobileview.page,Google
 HOST-SUFFIX,monitoring.qpdp1.net,Google

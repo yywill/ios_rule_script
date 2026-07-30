@@ -554,6 +554,23 @@ DOMAIN-SUFFIX,madewithcode.com
 DOMAIN-SUFFIX,material.io
 DOMAIN-SUFFIX,mdialog.com
 DOMAIN-SUFFIX,meet.new
+# Google Meet — bare google.com + media TURN (*.turns.goog is not under google.com)
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,meet.google.com
+DOMAIN-SUFFIX,stream.meet.google.com
+DOMAIN-SUFFIX,hangouts.google.com
+DOMAIN-SUFFIX,streamgate.google.com
+DOMAIN-SUFFIX,workspace.google.com
+DOMAIN-SUFFIX,meetings.googleapis.com
+DOMAIN-SUFFIX,hangouts.googleapis.com
+DOMAIN-SUFFIX,turns.goog
+DOMAIN,meet.turns.goog
+DOMAIN,workspace.turns.goog
+DOMAIN,stun.l.google.com
+DOMAIN,stun1.l.google.com
+DOMAIN,stun2.l.google.com
+DOMAIN,stun3.l.google.com
+DOMAIN,stun4.l.google.com
 DOMAIN-SUFFIX,mfg-inspector.com
 DOMAIN-SUFFIX,mobileview.page
 DOMAIN-SUFFIX,monitoring.qpdp1.net
